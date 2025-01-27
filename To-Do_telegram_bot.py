@@ -164,7 +164,7 @@ def check_command(updates):
         except:
             print("Exception")
 
-
+# main
 def main():
     last_update_id = None
     updates = get_updates(last_update_id)
